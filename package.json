@@ -1,0 +1,28 @@
+{
+  "name": "iso-country-code-to-korean",
+  "version": "1.0.2",
+  "description": "Convert ISO 3166 Alpha 2 Code to Country Name in Korean/English",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyna/ISO_3166_alpha_2_to_Korean.git"
+  },
+  "keywords": [
+    "ISO",
+    "3166",
+    "3166-1",
+    "alpha2",
+    "country",
+    "code"
+  ],
+  "author": "yyna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yyna/ISO_3166_alpha_2_to_Korean/issues"
+  },
+  "homepage": "https://github.com/yyna/ISO_3166_alpha_2_to_Korean#readme",
+  "dependencies": {}
+}
