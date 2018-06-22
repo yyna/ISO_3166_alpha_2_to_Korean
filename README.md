@@ -10,7 +10,7 @@ npm i iso-country-code-to-korean
 
 ## Usage
 
-```bash
+```javascript
 import { convert } from 'iso-country-code-to-korean';
 
 convert('KR'); // 대한민국
