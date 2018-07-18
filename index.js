@@ -1,4 +1,10 @@
-const list = {
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.convert = convert;
+var list = {
     AD: ['안도라', 'Andorra'],
     AE: ['아랍 에미리트', 'United Arab Emirates'],
     AF: ['아프가니스탄', 'Afghanistan'],
@@ -247,14 +253,14 @@ const list = {
     YT: ['마요트', 'Mayotte'],
     ZA: ['남아프리카 공화국', 'South Africa'],
     ZM: ['잠비아', 'Zambia'],
-    ZW: ['짐바브웨', 'Zimbabwe'],
-}
+    ZW: ['짐바브웨', 'Zimbabwe']
+};
 
-export function convert(code, lang = 'KR') {
+function convert(code) {
+    var lang = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'KR';
+
     var index;
-    if (lang === 'KR') index = 0;
-    else if (lang === 'EN') index = 1;
-    else {
+    if (lang === 'KR') index = 0;else if (lang === 'EN') index = 1;else {
         console.error('Support Language: KR, EN');
         return undefined;
     }
